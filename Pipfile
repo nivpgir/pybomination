@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 
 [dev-packages]
-unpythonic = { path = "../unpythonic", editable = true }
+unpythonic = {git = "https://github.com/Technologicat/unpythonic.git"}
 mcpyrate = "*"
 
 [requires]
